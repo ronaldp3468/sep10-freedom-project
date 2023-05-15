@@ -1,1 +1,73 @@
 
+body {
+	background-image: url('background-image.jpg');
+	background-size: cover;
+	background-position: center;
+}
+
+/* Style the navbar */
+nav {
+	background-color: #333;
+	color: #fff;
+	display: flex;
+	justify-content: center;
+	padding: 10px;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 999;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+nav ul li a {
+	color: #fff;
+	font-size: 18px;
+	text-decoration: none;
+}
+
+nav ul li a:hover {
+	color: #ddd;
+}
+
+/* Style the main content */
+main {
+	margin-top: 80px;
+	padding: 20px;
+}
+
+.background {
+	background-image: url('biochemistry-image.jpg');
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.background h1 {
+	font-size: 48px;
+	margin-bottom: 20px;
+	color: #fff;
+	text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+}
+
+#about {
+	background-color: #fff;
+	padding: 20px;
+	text-align: justify;
+}
+
+#about h2 {
+	font-size: 36px;
+
